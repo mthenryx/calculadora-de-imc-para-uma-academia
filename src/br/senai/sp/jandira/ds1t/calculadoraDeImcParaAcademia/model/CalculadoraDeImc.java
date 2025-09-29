@@ -40,7 +40,7 @@ public class CalculadoraDeImc {
             estadoFisico = "OBESIDADE GRAU I. É recomendado que este aluno procure um médico antes de iniciar ou intensificar os treinos.";
         } else if (imc >= 25) {
             estadoFisico = "LEVEMENTE ACIMA DO PESO";
-        } else if (imc >= 18.6) {
+        } else if (imc >= 18.5) {
             estadoFisico = "PESO IDEAL (PARABÉNS)";
         } else {
             estadoFisico = "ABAIXO DO PESO. É recomendado que este aluno procure um médico antes de iniciar ou intensificar os treinos.";
