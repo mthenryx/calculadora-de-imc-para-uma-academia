@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class CalculadoraDeImc {
 
     String nomeDoAluno;
+    String estadoFisico;
     double peso;
     double altura;
     double imc;
-    String estadoFisico;
 
     public void obterDados (){
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class CalculadoraDeImc {
         System.out.print("Qual o peso de " + nomeDoAluno + "?");
         peso = scanner.nextDouble();
 
-        System.out.print("Qual a altura de " + nomeDoAluno + " em metros?");
+        System.out.print("Qual a altura de " + nomeDoAluno + " (em metros)?");
         altura = scanner.nextDouble();
 
         calcularImc();
