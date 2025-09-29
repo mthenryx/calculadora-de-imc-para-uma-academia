@@ -16,7 +16,7 @@ public class CalculadoraDeImc {
         System.out.print("Olá! Qual o nome do aluno(a) ?");
         nomeDoAluno = scanner.nextLine();
 
-        System.out.print("Qual o peso de " + nomeDoAluno + "?");
+        System.out.print("Qual o peso de " + nomeDoAluno + " (em Kg)?");
         peso = scanner.nextDouble();
 
         System.out.print("Qual a altura de " + nomeDoAluno + " (em metros)?");
